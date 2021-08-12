@@ -1,4 +1,5 @@
-from components import dsg_reader
+import intake
 
-data = dsg_reader.DSGReader(99, directory='')
-data.run()
+catlg = intake.open_catalog('plktn.yaml')
+
+dk = catlg['foo'].to_dask()
