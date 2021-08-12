@@ -1,7 +1,5 @@
 # plankton-intake
 
-Use [Bea's repo](https://github.com/mooniean/empiarreader) as a template 👩‍💻
-
 ### To do
 
 - [ ] upload plankton data to online storage
