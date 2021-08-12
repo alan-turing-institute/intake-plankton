@@ -3,7 +3,7 @@ plugins:
       - module: intake_xarray
 
 sources:
-    cryosat_dem:
+    single_img:
       args:
         urlpath: "https://planktonclub.ie/wp-content/uploads/2020/12/cropped-Euphausiid-for-header.png"
       description: "Euphausiid"
