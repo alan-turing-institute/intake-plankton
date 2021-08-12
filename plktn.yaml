@@ -1,0 +1,15 @@
+'''
+copied from Alejandros notebook - will adapt 
+'''
+
+plugins:
+  source:
+      - module: intake_xarray
+
+sources:
+    cryosat_dem:
+      args:
+        urlpath: "http://www.cpom.ucl.ac.uk/csopr/icesheets2/data/Antarctica_Cryosat2_1km_DEMv1.0.tif"
+      description: "Cryosat Antarctic 1km DEM geotiff"
+      driver: rasterio
+      metadata: {}
