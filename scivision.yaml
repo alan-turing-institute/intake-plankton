@@ -27,3 +27,20 @@ sources:
         storage_options: {'anon': True}
         coerce_shape: [256, 256]
         exif_tags: True
+test_image:
+    description: Load a single Koala
+    origin:
+    driver: intake_xarray.image.ImageSource
+    parameters:
+      kind:
+        description: which species to collect
+        type: str
+        default: Bivalvia-Larvae
+      id:
+        description: which filename
+        type: str
+        default: Pia1.2017-10-03.1726+N00296780_hc
+    args:
+      urlpath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Cutest_Koala.jpg/262px-Cutest_Koala.jpg'
+      storage_options: {'anon': True}
+      exif_tags: True
