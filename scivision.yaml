@@ -43,4 +43,3 @@ sources:
       args:
         urlpath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Cutest_Koala.jpg/262px-Cutest_Koala.jpg'
         storage_options: {'anon': True}
-        exif_tags: True
