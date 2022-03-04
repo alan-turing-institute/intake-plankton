@@ -1,7 +1,4 @@
-# intake-plankton
+# TEST REPOSITORY
 
-### To do
+WARNING: This repo is used as an example data repo for the [scivision](https://github.com/alan-turing-institute/scivision) project. Consult the scivision maitainers before altering it.
 
-- [ ] upload plankton data to online storage
-- [ ] include intake configuration file (.yaml)
-- [ ] decide how we load the data, by folders, by species etc
